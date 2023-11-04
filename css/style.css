@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+body, html {
+	height: 100%;
+}
+body {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+a, img {
+	border: 0;
+	outline: 0;
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+.weather {
+	display: flex;
+}
+
+.weather__item-morning {
+	background: linear-gradient(18deg, #F1B14B -0.75%, #BC2C35 100%);
+	margin-right: 40px;
+}
+
+.weather__item-day {
+	background: linear-gradient(18deg, #4BB5F1 -0.75%, #2F2CBC 100%);
+	margin-right: 40px;
+}
+.weather__item-night {
+	background: linear-gradient(18deg, #223076 -0.75%, #06050E 100%);
+}
+.weather__item-morning, .weather__item-day, .weather__item-night {
+
+}
+.weather__item {
+	width: 375px;
+	padding-top: 26px;
+ 	padding-bottom: 26px;
+ 	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.weather__now {
+	text-align: center;
+}
+h2 {
+	margin-bottom: 40px;
+}
+
+.weather__now-state {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.weather__now-pic {
+	margin-bottom: 15px;
+}
+.weather__now-temp {
+	font-size: 72px;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+
+.weather__now-date {
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.table {
+
+	width: 375px;
+	font-size: 22px;
+	border-collapse: collapse;
+}
+
+#firstDay, #secondDay, #thirdDay, #fourthDay, #fifthDay {
+	border-top: 2px solid rgb(255, 255, 255, 0.5);
+}
+
+#fifthDay {
+	border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+}
+
+td {
+	padding: 3px;
+}
+
+#secondTemp {
+	color: rgb(255, 255, 255, 0.5);
+}
